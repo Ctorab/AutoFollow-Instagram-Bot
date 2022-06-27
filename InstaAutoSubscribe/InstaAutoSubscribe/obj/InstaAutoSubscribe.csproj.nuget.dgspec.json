@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\VisualStudioProjects\\InstaAutoSubscribe\\InstaAutoSubscribe\\InstaAutoSubscribe.csproj": {}
+  },
+  "projects": {
+    "E:\\VisualStudioProjects\\InstaAutoSubscribe\\InstaAutoSubscribe\\InstaAutoSubscribe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VisualStudioProjects\\InstaAutoSubscribe\\InstaAutoSubscribe\\InstaAutoSubscribe.csproj",
+        "projectName": "InstaAutoSubscribe",
+        "projectPath": "E:\\VisualStudioProjects\\InstaAutoSubscribe\\InstaAutoSubscribe\\InstaAutoSubscribe.csproj",
+        "packagesPath": "C:\\Users\\SnawBall dev\\.nuget\\packages\\",
+        "outputPath": "E:\\VisualStudioProjects\\InstaAutoSubscribe\\InstaAutoSubscribe\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SnawBall dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "InstaSharper": {
+              "target": "Package",
+              "version": "[1.4.82, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

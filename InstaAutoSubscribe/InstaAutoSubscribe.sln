@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaAutoSubscribe", "InstaAutoSubscribe\InstaAutoSubscribe.csproj", "{1583D8BA-B175-49B3-A82C-C715D4A01561}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1583D8BA-B175-49B3-A82C-C715D4A01561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1583D8BA-B175-49B3-A82C-C715D4A01561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1583D8BA-B175-49B3-A82C-C715D4A01561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1583D8BA-B175-49B3-A82C-C715D4A01561}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D419EF3D-F5D0-4274-B5F5-D3050F5D4211}
+	EndGlobalSection
+EndGlobal

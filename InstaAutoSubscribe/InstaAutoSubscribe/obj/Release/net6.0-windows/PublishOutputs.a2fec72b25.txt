@@ -1,0 +1,7 @@
+D:\github\AutoFollow-Instagram-Bot\InstaAutoSubscribe.exe
+D:\github\AutoFollow-Instagram-Bot\InstaAutoSubscribe.dll
+D:\github\AutoFollow-Instagram-Bot\InstaAutoSubscribe.deps.json
+D:\github\AutoFollow-Instagram-Bot\InstaAutoSubscribe.runtimeconfig.json
+D:\github\AutoFollow-Instagram-Bot\InstaAutoSubscribe.pdb
+D:\github\AutoFollow-Instagram-Bot\InstaSharper.dll
+D:\github\AutoFollow-Instagram-Bot\Newtonsoft.Json.dll
