@@ -131,7 +131,7 @@ namespace InstaAutoSubscribe
                 await _api.FollowUserAsync(_targetPageFollowers[i].Pk);
                 _currentUserFollowings.Add(_targetPageFollowers[i]);
 
-                Thread.Sleep(int.TryParse(Delay.Text, out int delay) ? delay : 1000);
+                await Task.Delay(int.TryParse(Delay.Text, out int delay) ? delay : 1000);
             }
 
             MessageBox.Show("Finished following!");
