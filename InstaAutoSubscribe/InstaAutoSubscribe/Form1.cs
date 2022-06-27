@@ -82,18 +82,18 @@ namespace InstaAutoSubscribe
             var loginRequest = await _api.LoginAsync();
             bool loginSucceeded = loginRequest.Succeeded;
 
-            await PullCurrentUserFollowings();
-
-            if (loginSucceeded)
-                MessageBox.Show("Logged In!");
-            else
+            if (!loginSucceeded)
             {
                 MessageBox.Show("Failed To Log In " + loginRequest.Info.Message);
                 return;
             }
 
+            await PullCurrentUserFollowings();
+
+            MessageBox.Show("Logged In!");
+
             LogStatusLable.Text = loginSucceeded ? "Logged In" : "Logged Out";
-            _loggedIn = loginSucceeded;       
+            _loggedIn = loginSucceeded;
         }
 
         private async Task PullCurrentUserFollowings()
